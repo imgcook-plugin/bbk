@@ -14,7 +14,7 @@ When using imgcook to generate export code, we take into account the requirement
  */
 
 const pluginHandler = async options => {
-  let { data } = options;
+  let { data, filePath, config } = options;
   // body...
   return data;
 };
